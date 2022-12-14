@@ -2,11 +2,11 @@
 I'm learning algorithms! Starting by learning algorithms based on this [top 25 list](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b) I found off the internet.
 
 
-- [ ] Binary Search Algorithm
-- [ ] Breadth First Search (BFS) Algorithm
-- [ ] Depth First Search (DFS) Algorithm
-- [ ] Merge Sort Algorithm
-- [ ] Quicksort Algorithm
+- [x] Binary Search Algorithm
+- [x] Breadth First Search (BFS) Algorithm
+- [x] Depth First Search (DFS) Algorithm
+- [x] Merge Sort Algorithm
+- [x] Quicksort Algorithm
 - [ ] Kruskal’s Algorithm
 - [ ] Floyd Warshall Algorithm
 - [ ] Dijkstra’s Algorithm
