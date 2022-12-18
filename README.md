@@ -1,29 +1,23 @@
 # Algorithms
-I'm learning algorithms! Starting by learning algorithms based on this [top 25 list](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b) I found off the internet.
 
+## Search Algorithms
 
-- [x] Binary Search Algorithm
-- [x] Breadth First Search (BFS) Algorithm
-- [x] Depth First Search (DFS) Algorithm
-- [x] Merge Sort Algorithm
-- [x] Quicksort Algorithm
-- [ ] Kruskal’s Algorithm
-- [ ] Floyd Warshall Algorithm
-- [ ] Dijkstra’s Algorithm
-- [ ] Bellman Ford Algorithm
-- [ ] Kadane’s Algorithm
-- [ ] Lee Algorithm
-- [ ] Flood Fill Algorithm
-- [ ] Floyd’s Cycle Detection Algorithm
-- [ ] Union Find Algorithm
-- [ ] Topological Sort Algorithm
-- [ ] KMP Algorithm
-- [ ] Insertion Sort Algorithm
-- [ ] Selection Sort Algorithm
-- [ ] Counting Sort Algorithm
-- [ ] Heap Sort Algorithm
-- [ ] Kahn’s Topological Sort Algorithm
-- [ ] Huffman Coding Compression Algorithm
-- [ ] Quickselect Algorithm
-- [ ] Boyer–Moore Majority Vote Algorithm
-- [ ] Euclid’s Algorithm
+|Name                 |Link                                            |
+|---------------------|------------------------------------------------|
+|Binary Search        |[Python](python3/search/binary_search.py)       |
+|Breadth-First Search |[Python](python3/search/breadth_first_search.py)|
+|Depth-First Search   |[Python](python3/search/depth_first_search.py)  |
+
+## Sorting Algorithms
+
+|Name       |Link                                |
+|-----------|------------------------------------|
+|Merge Sort |[Python](python3/sort/merge_sort.py)|
+|Quick Sort |[Python](python3/sort/quick_sort.py)|
+
+# Tree Algorithms
+
+|Name                |Link                             |
+|--------------------|---------------------------------|
+|Kruskal's Algorithm |[Python](python3/tree/kruskal.py)|
+|Prim's Algorithm    |[Python](python3/tree/prim.py)   |
