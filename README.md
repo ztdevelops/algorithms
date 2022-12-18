@@ -15,7 +15,7 @@
 |Merge Sort |[Python](python3/sort/merge_sort.py)|
 |Quick Sort |[Python](python3/sort/quick_sort.py)|
 
-# Tree Algorithms
+## Tree Algorithms
 
 |Name                |Link                             |
 |--------------------|---------------------------------|
