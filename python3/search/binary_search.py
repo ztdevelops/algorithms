@@ -1,5 +1,3 @@
-# What is Binary Search?
-
 '''
 Binary Search is a searching algorithm used in a sorted array 
 by repeatedly dividing the search intervals in half.
@@ -34,8 +32,24 @@ def binary_search(arr: list, target: int):
             maximum = middle - 1
     return -1
 
+def rbinary_search(arr: list, target: int, l=None, r=None):
+    if not (l or r):
+        l = 0
+        r = len(arr) - 1
+
+    if l > r:
+        return -1
+
+    mid = (l + r) // 2
+    if arr[mid] > target:
+        return rbinary_search(arr, target, l, mid - 1)
+    elif arr[mid] < target:
+        return rbinary_search(arr, target, mid + 1, r)
+    else:
+        return mid
+
 if __name__ == '__main__':
-    arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    target = 1
-    index = binary_search(arr, target)
-    
+    arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+    target = 10
+    index = rbinary_search(arr, target)
+    print(index)
